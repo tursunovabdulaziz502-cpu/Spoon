@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPOON — The art of everyday living</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/Минималистичная зелёная ложка на прозрачном фоне.png">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">SPOON</div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Our Story</a>
+      <a href="#">Journal</a>
+    </nav>
+    <div class="header-right">
+      <button class="icon-btn search-toggle" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="icon-btn cart-toggle" aria-label="Cart">
+        <i class="fa-solid fa-bag-shopping"></i> 
+        <span class="cart-count">0</span>
+      </button>
+      <button class="btn btn-primary">Explore All Items</button>
+    </div>
+  </header>
+
+  <div class="search-modal" id="searchModal">
+    <div class="search-box">
+      <input type="text" placeholder="Mahsulot nomini kiriting..." id="searchInput">
+      <button class="close-search" id="closeSearch"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3>Savatcha</h3>
+      <button class="close-cart" id="closeCart"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="cart-body">
+      <p class="empty-cart-text">Savatchangiz hozircha bo'sh.</p>
+    </div>
+    <div class="cart-footer">
+      <button class="btn btn-primary w-100">Buyurtma berish</button>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="subtitle">PREMIUM CUTLERY BRAND</p>
+      <h1>Small Details. Extraordinary Living.</h1>
+      <p class="desc">Design-led object collection designed to make everyday moments something special.</p>
+      <div class="hero-btns">
+        <button class="btn btn-primary">Shop Collection</button>
+        <button class="btn btn-outline">Discover Our Story <i class="fa-solid fa-arrow-right icon-right"></i></button>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <img src="img/Sculptural cutlery campaign.png" alt="Hero Spoon Image" class="img-hero">
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-item">
+      <i class="fa-solid fa-truck-fast feature-icon"></i>
+      <div>
+        <strong>Fast Delivery</strong>
+        <span>Receive within 2-3 business days</span>
+      </div>
+    </div>
+    <div class="feature-item">
+      <i class="fa-solid fa-rotate-left feature-icon"></i>
+      <div>
+        <strong>Free Returns</strong>
+        <span>30-day hassle-free return policy</span>
+      </div>
+    </div>
+    <div class="feature-item">
+      <i class="fa-solid fa-shield-halved feature-icon"></i>
+      <div>
+        <strong>Lifetime Warranty</strong>
+        <span>Crafted from stainless steel</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <p class="subtitle">FEATURED SETS</p>
+        <h2>Good design. Great company.</h2>
+      </div>
+      <a href="#" class="link-more">Browse all collections <i class="fa-solid fa-arrow-right icon-right"></i></a>
+    </div>
+    <div class="grid-2">
+      <div class="card-big">
+        <img src="img/Collection photography.png" alt="The Everyday Collection" class="img-card-big">
+        <h3>The Everyday Collection</h3>
+        <p>Perfect for daily dining and minimal setups.</p>
+      </div>
+      <div class="card-big">
+        <img src="img/Collection photography (1).png" alt="The Enduring Classic" class="img-card-big">
+        <h3>The Enduring Classic</h3>
+        <p>Timeless pieces crafted for modern tables.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="section-header">
+      <div>
+        <p class="subtitle">DAILY ESSENTIALS</p>
+        <h2>Your daily rotation, elevated.</h2>
+      </div>
+      <a href="#" class="link-more">View all products <i class="fa-solid fa-arrow-right icon-right"></i></a>
+    </div>
+    <div class="grid-4">
+      <div class="product-card">
+        <img src="img/Cutlery photography.png" alt="The Everyday Set" class="img-product">
+        <h4>The Everyday Set</h4>
+        <p>4-piece cutlery set</p>
+        <div class="product-footer">
+          <span class="price">$120</span>
+          <button class="btn-add-cart" title="Savatchaga qo'shish"><i class="fa-solid fa-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/Product image.png" alt="The Coffee Spoon" class="img-product">
+        <h4>The Coffee Spoon</h4>
+        <p>Set of 4 espresso spoons</p>
+        <div class="product-footer">
+          <span class="price">$45</span>
+          <button class="btn-add-cart" title="Savatchaga qo'shish"><i class="fa-solid fa-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/Product image (1).png" alt="The Serving Set" class="img-product">
+        <h4>The Serving Set</h4>
+        <p>Large 2-piece server set</p>
+        <div class="product-footer">
+          <span class="price">$85</span>
+          <button class="btn-add-cart" title="Savatchaga qo'shish"><i class="fa-solid fa-plus"></i></button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="img/Product image (2).png" alt="The Table Set" class="img-product">
+        <h4>The Table Set</h4>
+        <p>Complete 24-piece set</p>
+        <div class="product-footer">
+          <span class="price">$320</span>
+          <button class="btn-add-cart" title="Savatchaga qo'shish"><i class="fa-solid fa-plus"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark-banner">
+    <div class="banner-image-wrap">
+      <img src="img/Steel in detail.png" alt="Black Spoon Detail" class="img-banner">
+    </div>
+    <div class="banner-text">
+      <p class="subtitle">A BETTER WAY TO DINE</p>
+      <h2>Not just made. Considered.</h2>
+      <p>Every curved edge, weight distribution, and surface finish is designed to elevate your everyday dining experience.</p>
+      <ul class="check-list">
+        <li><i class="fa-solid fa-check check-icon"></i> Premium Stainless Steel</li>
+        <li><i class="fa-solid fa-check check-icon"></i> Dishwasher Safe</li>
+        <li><i class="fa-solid fa-check check-icon"></i> Ergonomic Balance</li>
+      </ul>
+      <button class="btn btn-outline-white">Our Standards <i class="fa-solid fa-arrow-right icon-right"></i></button>
+    </div>
+  </section>
+
+  <section class="quote-section">
+    <h3>"We don't save the good things for special occasions. We make the everyday an occasion."</h3>
+  </section>
+
+  <section class="section">
+    <div class="grid-2 align-center">
+      <div class="text-block">
+        <p class="subtitle">FOR THE MOMENTS THAT MATTER</p>
+        <h2>Set the table. Stay a little longer.</h2>
+        <p>Thoughtful table setups bring people together. Create warmth with our minimalist and elegant flatware designs.</p>
+        <button class="btn btn-primary">Shop The Collection</button>
+      </div>
+      <div class="image-block">
+        <img src="img/Gathering photography.png" alt="Dining Table Setup" class="img-setup">
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="section-header">
+      <div>
+        <p class="subtitle">OUR JOURNAL</p>
+        <h2>A life, thoughtfully lived.</h2>
+      </div>
+      <a href="#" class="link-more">Read journal <i class="fa-solid fa-arrow-right icon-right"></i></a>
+    </div>
+    <div class="grid-2">
+      <div class="card-big">
+        <img src="img/Article photograph.png" alt="Slow Morning Article" class="img-card-big">
+        <p class="subtitle">ESSAY / 01.10.2024</p>
+        <h3>In praise of the slow morning</h3>
+        <p>Why ritual and small details can set the tone for your whole day.</p>
+      </div>
+      <div class="card-big">
+        <img src="img/Article photograph (1).png" alt="Balance Article" class="img-card-big">
+        <p class="subtitle">DESIGN / 15.09.2024</p>
+        <h3>The beauty is in the balance</h3>
+        <p>How we approach proportions, weight, and materials in modern flatware.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-col">
+        <h3>Small details.<br>A lasting impression.</h3>
+        <p><i class="fa-regular fa-envelope"></i> hello@spoon.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>SHOP</h4>
+        <a href="#">Cutlery Sets</a>
+        <a href="#">Serving Utensils</a>
+        <a href="#">Coffee & Teaspoons</a>
+        <a href="#">Gift Cards</a>
+      </div>
+      <div class="footer-col">
+        <h4>EXPLORE</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Manufacturing</a>
+        <a href="#">Journal</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer-col">
+        <h4>HELP</h4>
+        <a href="#">Shipping & Returns</a>
+        <a href="#">Care Guide</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-big-logo">SPOON</div>
+    <div class="footer-bottom">
+      <p>© 2026 SPOON. All rights reserved.</p>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
